@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@300;400&family=Montserrat:wght@400;700&family=Red+Hat+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap');
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+
+.header {
+    box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 90px;
+left: 0px;
+top: 0px;
+
+background: rgba(242, 120, 92, 0.7);
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+
+}
+.header__menu {
+    
+}
+.header__row {
+}
+.header__logo {
+    position: absolute;
+width: 216px;
+height: 31px;
+left: 120px;
+top: 25px;
+}
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 42px;
+    
+    position: absolute;
+    width: 527px;
+    height: 21px;
+    left: 494px;
+    top: 35px;
+}
+.header__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 229px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 103px;
+    height: 41px;
+    left: 1217px;
+    top: 25px;
+    
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    width: 43px;
+height: 21px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.preview {
+}
+.preview__blank {
+}
+.preview__row {
+}
+.preview__title {
+}
+.preview__subtitle {
+}
+.preview__form {
+}
+.preview__search {
+}
+.preview__button {
+}

@@ -1,6 +1,6 @@
 git init - локальную папку превращает в репозиторий
 
-git remote add origin https://github.com/artemkuvik/TestRepo.git привяжет
+ привяжет
 
 git status - где находимся, предложеие что делать
 
@@ -26,6 +26,7 @@ git checkout -b (название новой ветки) - создаёт новую ветку из той, в которой н
 
 git pull origin (ветка) - привезти изменения из git
 
+git clone https://github.com/artemkuvik/rsschool-cv -b rsschool-cv-html
 
 
 
